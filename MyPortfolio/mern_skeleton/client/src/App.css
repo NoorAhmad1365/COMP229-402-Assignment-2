@@ -1,0 +1,65 @@
+
+
+/*
+  App.css
+  Global styles for the portfolio application.
+  Author: Noor Ahmad
+*/
+
+#root {
+  /* Main container for React app */
+  max-width: autopx;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.page-content {
+  /* Content area below fixed navigation */
+  margin-top: 90px;
+}
+
+
+.logo {
+  /* Logo image styling */
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  /* Logo hover effect */
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  /* React logo hover effect */
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  /* Logo spin animation */
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Animation for logo if user prefers motion */
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  /* Card component styling */
+  padding: 2em;
+}
+
+.read-the-docs {
+  /* Documentation link styling */
+  color: #888;
+}

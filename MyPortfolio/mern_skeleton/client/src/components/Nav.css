@@ -1,0 +1,54 @@
+/*
+  Nav.css
+  Styles for the navigation bar, including header, nav links, and hover effects.
+  Author: Noor Ahmad
+*/
+
+/* Fixed header for navigation bar */
+.top-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: #bf94eaf5;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 45px 0 40px 0;
+  text-align: center;
+}
+
+/* Portfolio site title styling */
+.top-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Navigation bar container styling */
+.top-header nav {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  padding: 0;
+}
+
+/* Navigation link button styling */
+.top-header nav a {
+  display: inline-block;
+  background: #32444e;
+  color: #fff;
+  padding: 10px 30px;
+  margin: 0 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+
+/* Navigation link hover effect */
+.top-header nav a:hover {
+  background: #040404;
+  color: #f0f2f2;
+}

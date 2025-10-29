@@ -1,0 +1,27 @@
+/* 
+  Home.css
+  Styles for the Home page hero section and background.
+  Author: Noor Ahmad
+*/
+
+.hero h2 {
+  /* Main heading for Home page */
+  color: #000;
+  margin-top: 200px;
+}
+
+
+.hero p {
+   /* Paragraph styling for Home page */
+  margin: 24px 32px 50px 32px; /* top right bottom left */
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+
+body {
+  /* Background color for Home page */
+  background-color: #f1f3f5; /* Light blue */
+}
+

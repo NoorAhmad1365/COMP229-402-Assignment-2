@@ -1,0 +1,51 @@
+/*
+ * Adds vertical spacing above the entire services section to move it down the page
+ */
+.AllServices {
+	margin-top: 200px;
+}
+
+/*
+ * Styles the main heading of the services section
+ * - Adds space below the heading
+ * - Sets color, font size, and centers the text
+ */
+.AllServices h2 {
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/*
+ * Styles for each individual service section
+ * - Adds spacing below each service
+ * - Sets font size and color for service text
+ * - Aligns text to the left for readability
+ * - Adds horizontal and vertical margin for layout
+ * - Uses flexbox to stack content vertically and center items
+ */
+.service {
+	/* Service section styling */
+	margin-bottom: 50px;
+	font-size: 20px;
+	color: #000;
+	text-align: left;
+	margin: 50px 52px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.service img {
+	display: block;
+	margin: 0 auto 20px auto;
+}
+/*
+ * Ensures service images are centered horizontally and spaced from text below
+ */
+.service img {
+	display: block;
+	margin: 0 auto 20px auto;
+}
